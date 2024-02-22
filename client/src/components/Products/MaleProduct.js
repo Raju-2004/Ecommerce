@@ -1,9 +1,10 @@
 import React from "react";
-import Img1 from "../../assets/p1.png";
-import Img2 from "../../assets/p2.png";
-import Img3 from "../../assets/p3.png";
-import Img4 from "../../assets/p4.png";
-import Img5 from "../../assets/p6.png"
+import Img1 from "../../assets/product_13.png";
+import Img2 from "../../assets/product_14.png";
+import Img3 from "../../assets/product_15.png";
+import Img4 from "../../assets/product_16.png";
+import Img5 from "../../assets/product_17.png";
+
 import 'aos/dist/aos.css'
 import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa6";
@@ -12,46 +13,46 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "TV",
+    title: "Hoodie",
     rating: 5.0,
-    color: "Black",
+    color: "white",
     aosDelay: "0",
   },
   {
     id: 2,
     img: Img2,
-    title: "Laptop",
+    title: "Men Jacket",
     rating: 4.5,
-    color: "White",
+    color: "Red",
     aosDelay: "200",
   },
   { 
     id: 3,
     img: Img3,
-    title: "Watch",
+    title: "Jacket",
     rating: 4.7,
-    color: "Gray",
+    color: "brown",
     aosDelay: "400",
   },
   {
     id: 4,
     img: Img4,
-    title: "Speaker",
+    title: "Coat",
     rating: 4.4,
-    color: "Gray",
+    color: "Yellow",
     aosDelay: "600",
   },
   {
     id: 5,
     img: Img5,
-    title: "Mobile Phone",
+    title: "Jeans Jacket",
     rating: 4.5,
-    color: "Blue",
+    color: "Pink",
     aosDelay: "800",
   },
 ];
 
-const Electronic_Product = () => {
+const MaleProduct = () => {
   return (
     <div className="mt-14 mb-12">
       <div className="container">
@@ -61,7 +62,7 @@ const Electronic_Product = () => {
             
           </p> */}
           <h1 data-aos="fade-up" className="text-4xl text-primary mb-2 font-bold">
-          POPULAR IN ElECTRONICS
+          POPULAR IN MEN
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
@@ -107,4 +108,4 @@ const Electronic_Product = () => {
   );
 };
 
-export default Electronic_Product;
+export default MaleProduct;
